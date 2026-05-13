@@ -1,0 +1,29 @@
+# Environment variables — NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Output data — may contain personal info
+output/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
